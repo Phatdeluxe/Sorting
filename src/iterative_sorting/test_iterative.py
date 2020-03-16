@@ -8,10 +8,13 @@ class IterativeSortingTest(unittest.TestCase):
         arr2 = []
         arr3 = [0, 1, 2, 3, 4, 5]
         arr4 = random.sample(range(200), 50)
-
+        print('Test 1')
         self.assertEqual(selection_sort(arr1), [0,1,2,3,4,5,6,7,8,9])
+        print('Test 2')
         self.assertEqual(selection_sort(arr2), [])
+        print('Test 3')
         self.assertEqual(selection_sort(arr3), [0,1,2,3,4,5])
+        print('Test 4')
         self.assertEqual(selection_sort(arr4), sorted(arr4))
 
     def test_bubble_sort(self):
@@ -20,9 +23,13 @@ class IterativeSortingTest(unittest.TestCase):
         arr3 = [0, 1, 2, 3, 4, 5]
         arr4 = random.sample(range(200), 50)
 
+        print('Test 5')
         self.assertEqual(bubble_sort(arr1), [0,1,2,3,4,5,6,7,8,9])
+        print('Test 6')
         self.assertEqual(bubble_sort(arr2), [])
+        print('Test 7')
         self.assertEqual(bubble_sort(arr3), [0,1,2,3,4,5])
+        print('Test 8')
         self.assertEqual(bubble_sort(arr4), sorted(arr4))
 
     # Uncomment this test to test your count_sort implementation
